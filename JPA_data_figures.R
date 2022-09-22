@@ -3,6 +3,7 @@ library(tidyverse)
 library(ggthemes)
 library(rstatix)
 library(patchwork)
+library(ggbeeswarm)
 
 #General note: 
 #this R script includes all data necessary to produce figures from paper: 
@@ -24,7 +25,7 @@ Boar_vel_plot <-
   aes(colour = Technology, fill = Technology)+
   scale_fill_colorblind()+
   scale_colour_colorblind()+
-  geom_point(alpha=.25)+
+  geom_quasirandom(alpha=.25)+
   theme_bw()+
   labs(x="Delivery method")+
   labs(y="Velocity at target (m/s)")+
@@ -43,7 +44,7 @@ Boar_KE_plot <-
   aes(colour = Technology, fill = Technology)+
   scale_fill_colorblind()+
   scale_colour_colorblind()+
-  geom_point(alpha=.25)+
+  geom_quasirandom(alpha=.25)+
   theme_bw()+
   labs(x="Delivery method")+
   labs(y="Kinetic energy (J)")+
@@ -65,7 +66,7 @@ Iovita_vel_plot <-
   aes(colour = Delivery, fill = Delivery)+
   scale_fill_colorblind()+
   scale_colour_colorblind()+
-  geom_point(alpha=.25)+
+  geom_quasirandom(alpha=.25)+
   theme_bw()+
   labs(x="Delivery method")+
   labs(y="Velocity at target (m/s)")+
@@ -82,7 +83,7 @@ Iovita_KE <-
   aes(colour = Delivery, fill = Delivery)+
   scale_fill_colorblind()+
   scale_colour_colorblind()+
-  geom_point(alpha=.25)+
+  geom_quasirandom(alpha=.25)+
   theme_bw()+
   labs(x="Delivery method")+
   labs(y="Kinetic energy (J)")+

@@ -1,0 +1,15 @@
+Type: Compendium
+Package: Compendium title
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: 
+    person("Geoff", "Smith", , "geoffrey_smith@eva.mpg.de", role = c("aut", "cre")))
+Description: Compendium description
+License: MIT + file LICENSE
+Depends: 
+    ggthemes,
+    patchwork,
+    rstatix,
+    tidyverse
+Encoding: UTF-8
+LazyData: true
