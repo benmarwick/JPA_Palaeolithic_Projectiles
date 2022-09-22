@@ -2,7 +2,7 @@
 
 <!-- badges: start -->
 [![Launch Rstudio
-Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/benmarwick/JPA_Palaeolithic_Projectiles/master?urlpath=rstudio)
+Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/benmarwick/JPA_Palaeolithic_Projectiles/main?urlpath=rstudio)
 <!-- badges: end -->
 
 This repository contains the data to perform the statistical analyses and produce the figures and tables for:
