@@ -3,10 +3,12 @@ Package: Compendium title
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.1
 Authors@R: 
-    person("Geoff", "Smith", , "geoffrey_smith@eva.mpg.de", role = c("aut", "cre")))
+    person("Ben", "Marwick", , "benmarwick@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7879-4531"))
 Description: Compendium description
 License: MIT + file LICENSE
 Depends: 
+    ggbeeswarm,
     ggthemes,
     patchwork,
     rstatix,
